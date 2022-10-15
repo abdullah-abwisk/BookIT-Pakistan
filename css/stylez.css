@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../images/bg.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 70%;
+    border: none;
+    /* border-radius: 55px; */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 23px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.rightNav {
+    /* background-color: grey; */
+    width: 50%;
+    text-align: right;
+    vertical-align: center;
+}
+
+
+/* #search {
+    padding: 5px;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 3px;
+} */
+
+.firstSection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.firsthalf {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-big {
+    font-size: 80px;
+    text-align: center;
+    color: rosybrown;
+}
+
+.text-small {
+    font-size: 20px;
+    color: cornsilk;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 10px 0;
+    /* border: 2px solid white; */
+    border-radius: 8px;
+    font-size: 15px;
+    align-items: end;
+    background-color: rosybrown;
+    color: maroon;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 2px solid mediumaquamarine;
+    color: blue
+}
+
+
+/* .secondhalf {
+    width: 30%;
+} */

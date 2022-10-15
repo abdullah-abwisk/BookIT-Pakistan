@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../images/bg.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+body
+{
+	background-image: url('123.jpg');
+}
+
+.container
+{
+	font-size: 20px;
+	font-weight:900;
+}
+form 
+{
+	display: table;      
+}
+p   
+{ 
+	display: table-row;
+	line-height: 35px;
+}
+
+label
+{
+	display: table-cell; 
+}
+
+input
+{ 	
+	display: table-cell;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 25px;
+}
+
+.inputs
+{
+	
+}
+
+input[type=submit]
+{
+	background:black;
+	cursor:pointer;
+	transition:color 0.2s linear;
+	border-radius: 25px;
+	font-weight:900;
+	color: white;
+	font-size: 20px;
+}
+input[type=submit]:hover
+{
+	color:lawngreen;
+}
+
+.box
+{
+	border: 5px solid black;
+	width:380px;
+	height:300px;
+	background:white;
+	padding:30px;
+	margin:100px 500px;
+
+	background-image:white;
+	border-radius: 25px;
+}
+.box2
+{
+	border: 2px solid black;
+	font-size: 20px;
+	border-radius: 15px;
+	width:250px;
+	height:50px;
+	margin:20px 585px;
+	padding: 2px 2px;
+}
+	

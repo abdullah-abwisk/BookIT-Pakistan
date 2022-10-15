@@ -1,0 +1,66 @@
+body
+{
+}
+
+.container
+{
+	font-size: 20px;
+	font-weight:900;
+}
+form 
+{
+	display: table;      
+}
+p   
+{ 
+	display: table-row;
+	line-height: 35px;
+}
+
+label
+{
+	display: table-cell; 
+}
+
+input
+{ 	
+	display: table-cell;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 25px;
+}
+
+.inputs
+{
+	
+}
+
+input[type=submit]
+{
+	background:black;
+	cursor:pointer;
+	transition:color 0.2s linear;
+	border-radius: 25px;
+	font-weight:900;
+	color: white;
+	font-size: 20px;
+}
+input[type=submit]:hover
+{
+	color:lawngreen;
+}
+
+.box
+{
+	border: 5px solid black;
+	width:380px;
+	height:600px;
+	background:white;
+	padding:20px;
+	margin:100px 500px;
+
+	background-image:white;
+	border-radius: 25px;
+}
